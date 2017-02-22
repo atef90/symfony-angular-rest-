@@ -1,0 +1,11 @@
+user_security:
+    type: rest
+    prefix: /users
+    resource: "UserBundle:Security"
+    name_prefix:  api_
+
+user_connected:
+    type: rest
+    prefix: /users
+    resource: "UserBundle:User"
+    name_prefix:  api_

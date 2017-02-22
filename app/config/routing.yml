@@ -1,0 +1,4 @@
+api_user:
+    type: rest
+    resource: "@UserBundle/Resources/config/routing.yml"
+    prefix:   /api
